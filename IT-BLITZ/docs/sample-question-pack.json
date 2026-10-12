@@ -1,0 +1,490 @@
+{
+  "format": "it-blitz-question-pack",
+  "version": 3,
+  "title": "IT BLITZ",
+  "subtitle": "Information Technology Challenge",
+  "tagline": "Pick a category. Choose your points. Test your IT knowledge.",
+  "callToAction": "Are you ready to test your IT knowledge?",
+  "categories": [
+    {
+      "name": "Programming",
+      "questions": [
+        {
+          "points": 2500,
+          "question": "What keyword is used to define a function in Python?",
+          "choices": [
+            "function",
+            "def",
+            "func",
+            "define"
+          ],
+          "correct": "B"
+        },
+        {
+          "points": 5000,
+          "question": "Which symbol begins a single-line comment in Python?",
+          "choices": [
+            "//",
+            "#",
+            "/*",
+            "--"
+          ],
+          "correct": "B"
+        },
+        {
+          "points": 7500,
+          "question": "What does \"OOP\" stand for?",
+          "choices": [
+            "Object-Oriented Programming",
+            "Ordered Operation Protocol",
+            "Open Output Process",
+            "Optional Object Parameter"
+          ],
+          "correct": "A"
+        },
+        {
+          "points": 10000,
+          "question": "Which data structure follows LIFO (Last In, First Out)?",
+          "choices": [
+            "Queue",
+            "Stack",
+            "Linked list",
+            "Hash map"
+          ],
+          "correct": "B"
+        },
+        {
+          "points": 15000,
+          "question": "What is the time complexity of binary search on a sorted array?",
+          "choices": [
+            "O(n)",
+            "O(n log n)",
+            "O(log n)",
+            "O(1)"
+          ],
+          "correct": "C"
+        },
+        {
+          "points": 20000,
+          "question": "In JavaScript, what does the \"===\" operator compare?",
+          "choices": [
+            "Value only",
+            "Reference only",
+            "Value and type (strict)",
+            "Nothing"
+          ],
+          "correct": "C"
+        }
+      ]
+    },
+    {
+      "name": "Networking",
+      "questions": [
+        {
+          "points": 2500,
+          "question": "How many bits are in an IPv4 address?",
+          "choices": [
+            "16",
+            "32",
+            "64",
+            "128"
+          ],
+          "correct": "B"
+        },
+        {
+          "points": 5000,
+          "question": "Which protocol translates domain names into IP addresses?",
+          "choices": [
+            "DHCP",
+            "DNS",
+            "FTP",
+            "SMTP"
+          ],
+          "correct": "B"
+        },
+        {
+          "points": 7500,
+          "question": "How many layers does the OSI model have?",
+          "choices": [
+            "5",
+            "6",
+            "7",
+            "8"
+          ],
+          "correct": "C"
+        },
+        {
+          "points": 10000,
+          "question": "Which protocol automatically assigns IP addresses to devices?",
+          "choices": [
+            "DNS",
+            "DHCP",
+            "ARP",
+            "ICMP"
+          ],
+          "correct": "B"
+        },
+        {
+          "points": 15000,
+          "question": "What is the default subnet mask for a Class C network?",
+          "choices": [
+            "255.0.0.0",
+            "255.255.0.0",
+            "255.255.255.0",
+            "255.255.255.255"
+          ],
+          "correct": "C"
+        },
+        {
+          "points": 20000,
+          "question": "At which OSI layer does a router primarily operate?",
+          "choices": [
+            "Layer 2 – Data Link",
+            "Layer 3 – Network",
+            "Layer 4 – Transport",
+            "Layer 7 – Application"
+          ],
+          "correct": "B"
+        }
+      ]
+    },
+    {
+      "name": "Cybersecurity",
+      "questions": [
+        {
+          "points": 2500,
+          "question": "Which attack tricks users into revealing info via fake emails?",
+          "choices": [
+            "Phishing",
+            "DDoS",
+            "SQL injection",
+            "Brute force"
+          ],
+          "correct": "A"
+        },
+        {
+          "points": 5000,
+          "question": "What does a firewall primarily do?",
+          "choices": [
+            "Speeds up internet",
+            "Filters network traffic",
+            "Stores passwords",
+            "Cools the CPU"
+          ],
+          "correct": "B"
+        },
+        {
+          "points": 7500,
+          "question": "Which malware disguises itself as legitimate software?",
+          "choices": [
+            "Worm",
+            "Trojan horse",
+            "Adware",
+            "Rootkit"
+          ],
+          "correct": "B"
+        },
+        {
+          "points": 10000,
+          "question": "What does \"2FA\" stand for?",
+          "choices": [
+            "Two-Factor Authentication",
+            "Two-File Access",
+            "Twice-Firewall Alert",
+            "Two-Frame Algorithm"
+          ],
+          "correct": "A"
+        },
+        {
+          "points": 15000,
+          "question": "Which encryption uses the same key to encrypt and decrypt?",
+          "choices": [
+            "Asymmetric",
+            "Symmetric",
+            "Public-key",
+            "Hashing"
+          ],
+          "correct": "B"
+        },
+        {
+          "points": 20000,
+          "question": "Which attack floods a server with traffic to make it unavailable?",
+          "choices": [
+            "Phishing",
+            "Man-in-the-middle",
+            "DDoS",
+            "Ransomware"
+          ],
+          "correct": "C"
+        }
+      ]
+    },
+    {
+      "name": "Database",
+      "questions": [
+        {
+          "points": 2500,
+          "question": "What does SQL stand for?",
+          "choices": [
+            "Structured Query Language",
+            "Simple Question Language",
+            "System Query Logic",
+            "Sequential Query List"
+          ],
+          "correct": "A"
+        },
+        {
+          "points": 5000,
+          "question": "Which SQL command retrieves data from a table?",
+          "choices": [
+            "GET",
+            "SELECT",
+            "FETCH",
+            "OPEN"
+          ],
+          "correct": "B"
+        },
+        {
+          "points": 7500,
+          "question": "What uniquely identifies each record in a table?",
+          "choices": [
+            "Foreign key",
+            "Primary key",
+            "Index",
+            "Trigger"
+          ],
+          "correct": "B"
+        },
+        {
+          "points": 10000,
+          "question": "Which SQL command modifies existing records in a table?",
+          "choices": [
+            "UPDATE",
+            "INSERT",
+            "SELECT",
+            "ALTER"
+          ],
+          "correct": "A"
+        },
+        {
+          "points": 15000,
+          "question": "A foreign key in a table refers to what?",
+          "choices": [
+            "A key from another database",
+            "The primary key of another table",
+            "An encrypted column",
+            "A backup copy"
+          ],
+          "correct": "B"
+        },
+        {
+          "points": 20000,
+          "question": "Which normal form eliminates transitive dependencies?",
+          "choices": [
+            "1NF",
+            "2NF",
+            "3NF",
+            "0NF"
+          ],
+          "correct": "C"
+        }
+      ]
+    },
+    {
+      "name": "Hardware & Software",
+      "questions": [
+        {
+          "points": 2500,
+          "question": "What does \"CPU\" stand for?",
+          "choices": [
+            "Central Processing Unit",
+            "Computer Personal Unit",
+            "Central Program Utility",
+            "Core Processing Unifier"
+          ],
+          "correct": "A"
+        },
+        {
+          "points": 5000,
+          "question": "Which component acts as the computer's short-term memory?",
+          "choices": [
+            "Hard drive",
+            "RAM",
+            "GPU",
+            "BIOS"
+          ],
+          "correct": "B"
+        },
+        {
+          "points": 7500,
+          "question": "Which of these is an operating system?",
+          "choices": [
+            "Chrome",
+            "Linux",
+            "Photoshop",
+            "Excel"
+          ],
+          "correct": "B"
+        },
+        {
+          "points": 10000,
+          "question": "Which storage device has no moving parts and is faster than an HDD?",
+          "choices": [
+            "SSD",
+            "CD-ROM",
+            "Floppy disk",
+            "Magnetic tape"
+          ],
+          "correct": "A"
+        },
+        {
+          "points": 15000,
+          "question": "What is the main function of a GPU?",
+          "choices": [
+            "Manage storage",
+            "Render graphics & parallel processing",
+            "Control the network",
+            "Cool the system"
+          ],
+          "correct": "B"
+        },
+        {
+          "points": 20000,
+          "question": "Which type of memory is volatile (loses data without power)?",
+          "choices": [
+            "ROM",
+            "SSD",
+            "RAM",
+            "Flash"
+          ],
+          "correct": "C"
+        }
+      ]
+    }
+  ],
+  "bonus": [
+    {
+      "question": "What does \"HTTP\" stand for?",
+      "choices": [
+        "HyperText Transfer Protocol",
+        "High Transfer Text Process",
+        "Hyperlink Text Transmit Path",
+        "Host Transfer Type Protocol"
+      ],
+      "correct": "A"
+    },
+    {
+      "question": "In binary, what is 1010 equal to in decimal?",
+      "choices": [
+        "8",
+        "10",
+        "12",
+        "20"
+      ],
+      "correct": "B"
+    },
+    {
+      "question": "Which port does HTTPS use by default?",
+      "choices": [
+        "21",
+        "80",
+        "443",
+        "8080"
+      ],
+      "correct": "C"
+    },
+    {
+      "question": "Who is often credited as the first computer programmer?",
+      "choices": [
+        "Alan Turing",
+        "Ada Lovelace",
+        "Grace Hopper",
+        "Charles Babbage"
+      ],
+      "correct": "B"
+    },
+    {
+      "question": "How many bits are in one byte?",
+      "choices": [
+        "4",
+        "8",
+        "16",
+        "32"
+      ],
+      "correct": "B"
+    },
+    {
+      "question": "What does \"GUI\" stand for?",
+      "choices": [
+        "General User Input",
+        "Graphical User Interface",
+        "Guided Utility Icon",
+        "Global Unified Index"
+      ],
+      "correct": "B"
+    },
+    {
+      "question": "Which company developed the Java programming language?",
+      "choices": [
+        "Microsoft",
+        "Sun Microsystems",
+        "IBM",
+        "Apple"
+      ],
+      "correct": "B"
+    },
+    {
+      "question": "What does the acronym 'URL' stand for?",
+      "choices": [
+        "Uniform Resource Locator",
+        "Universal Reference Link",
+        "Unified Retrieval Layer",
+        "User Routing Label"
+      ],
+      "correct": "A"
+    }
+  ],
+  "settings": {
+    "questionTime": 15,
+    "stealTime": 10,
+    "bonusTime": 20,
+    "roundMinutes": 10,
+    "penalty": "full",
+    "stealOn": true,
+    "bonusPoints": 10000,
+    "targetScore": 0,
+    "teamCount": 3,
+    "teams": [
+      {
+        "name": "Team Cyan",
+        "color": "#25e0ff"
+      },
+      {
+        "name": "Team Magenta",
+        "color": "#e23af0"
+      },
+      {
+        "name": "Team Lime",
+        "color": "#38ffa3"
+      },
+      {
+        "name": "Team Gold",
+        "color": "#ffd23f"
+      },
+      {
+        "name": "Team Violet",
+        "color": "#a58bff"
+      }
+    ]
+  },
+  "branding": {
+    "schoolName": "",
+    "logo": "",
+    "accentColors": {
+      "primary": "#25e0ff",
+      "secondary": "#e23af0",
+      "gold": "#ffd23f"
+    },
+    "language": "en"
+  }
+}
